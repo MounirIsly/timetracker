@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(188, 235, 235);
+    color: teal;
+}
+
+.main-nav {
+    height: 120px;
+    background-color: rgb(25, 197, 197);
+    color: white;
+    padding: 10px;
+}
+
+.main-nav a {
+    color: teal;
+    text-decoration: none;
+}
+
+.main-nav p {
+    font-size: 30px;
+    background-color: white;
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-nav li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.main-nav li:hover {
+    background-color: rgb(172, 240, 240);
+}
+
+.main-nav h1 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main-nav ul {
+    float: right;
+}
+
+.main-list {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.main-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-list img {
+    width: 30%;
+    margin-right: 60px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.main-list p {
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 50px;
+    background-color: rgb(25, 197, 197);
+    padding: 20px;
+    float: left;
+}
+
+.add {
+    margin-left: 300px;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(108, 226, 226);
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+
+.add a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(112, 165, 165);
+}
+
+.add ul {
+    list-style: none;
+    background: floralwhite;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.add li {
+    color: teal;
+    border-bottom: 2px solid rgb(84, 156, 156);
+}
+
+.add input,
+select {
+    font-size: 15px;
+    color: teal;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+
+.add input[type='submit'] {
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+svg {
+    height: 500px;
+    width: 500px;
+}
+
+table {
+    border: 1px solid teal;
+    width: 100%;
+}
+
+table th {
+    border: 1px solid teal;
+}
+
+.svg {
+    height: 30px;
+    width: 30px;
+}
+
+.svg svg {
+    height: 40px;
+    width: 40px;
+}
